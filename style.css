@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+  background-image: url("/images/person-hand-s-holding-poker-card.jpg");
+  background-size: cover;
+}
+h1 {
+  color: goldenrod;
+}
+button {
+  background-color: goldenrod;
+  color: green;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 15px;
+  width: 300px;
+  margin: 10px 0px;
+  font-size: 28px;
+  font-weight: bold;
+}
+#message-el {
+  font-style: italic;
+}
+.container {
+  background-color: black;
+  opacity: 0.8;
+  max-width: 700px;
+  display: block;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 16px;
+}
