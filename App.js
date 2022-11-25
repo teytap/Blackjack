@@ -7,6 +7,7 @@ let hasBlackjack = false;
 let sum = 0;
 let cards = [];
 let player = { name: "John", chips: 140 };
+
 function getRandomCard() {
   let randomCard = Math.floor(Math.random() * 13) + 1;
   if (randomCard === 1) {
@@ -21,6 +22,7 @@ function getRandomCard() {
 
 function startGame() {
   isAlive = true;
+  cards = [];
   let firstCard = getRandomCard();
   let secondCard = getRandomCard();
   sum = firstCard + secondCard;
